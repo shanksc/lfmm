@@ -1,0 +1,13 @@
+#both need indexed
+bcf: ../elite_data/imputed/hg38/merged_biallelic_no_cooper_only_male_athletes.bcf
+pruned_bcf: ../elite_data/imputed/hg38/merged_biallelic_no_cooper_only_male_athletes_ld_maf_filtered.bcf
+
+scripts_dir: ../scripts
+
+name: eur_no_cooper_only_male_athletes
+
+metadata: ../elite_data/athletes_metadata/all_athletes.tsv
+
+working: working_k6_rep
+
+
